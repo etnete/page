@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="header">
+    <header>
       <nav class="navbar navbar-expand-xl navbar-light bg-light">
         <a class="navbar-brand" href="#">
-          <img class="" src="images/logo2.svg" alt="" />
-          <p>etnetera</p>
+          <img class="" src="images/logo.svg" alt="logo" />
+          <h1>etnetera</h1>
         </a>
         <button
           class="navbar-toggler"
@@ -54,9 +54,9 @@
           </ul>
         </div>
       </nav>
-    </div>
+    </header>
 
-    <div class="slider">
+    <section class="slider">
       <div
         id="carouselExampleControls"
         class="carousel slide"
@@ -67,7 +67,7 @@
             <div class="background-image"></div>
             <div class="content">
               <h1>Přidej se v Etneteře mezi kodéry</h1>
-              <p class="">
+              <p>
                 Čeká tě tým mladých lidí zapálených nejen do kódování. Nejsme
                 žádný tiše pracující tým. Rádi si s tebou i během práce
                 pokecáme, zajdeme na oběd nebo poradíme s problémem.
@@ -79,7 +79,7 @@
             <div class="background-image"></div>
             <div class="content">
               <h1>Přidej se v Etneteře mezi kodéry</h1>
-              <p class="">
+              <p>
                 Čeká tě tým mladých lidí zapálených nejen do kódování. Nejsme
                 žádný tiše pracující tým. Rádi si s tebou i během práce
                 pokecáme, zajdeme na oběd nebo poradíme s problémem.
@@ -91,7 +91,7 @@
             <div class="background-image"></div>
             <div class="content">
               <h1>Přidej se v Etneteře mezi kodéry</h1>
-              <p class="">
+              <p>
                 Čeká tě tým mladých lidí zapálených nejen do kódování. Nejsme
                 žádný tiše pracující tým. Rádi si s tebou i během práce
                 pokecáme, zajdeme na oběd nebo poradíme s problémem.
@@ -119,29 +119,33 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
+    </section>
 
     <div class="bar">
       <div class="container">
         <div class="row">
-          <div class="col col-custom">PŘED 12 DNY</div>
-          <div style="text-align: center" class="col-7 center col-custom">
-            Jiří Štěpán z Etnetera Activate poodhalil zákulisí vykutálené
-            náborové kampaně.
+          <div class="col col-custom"><p>PŘED 12 DNY</p></div>
+          <div style="text-align: center" class="col-7 col-custom">
+            <p>
+              Jiří Štěpán z Etnetera Activate poodhalil zákulisí vykutálené
+              náborové kampaně.
+            </p>
           </div>
-          <div style="text-align: right" class="col col-custom">Přečíst</div>
+          <div style="text-align: right" class="col col-custom">
+            <p>Přečíst</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="info">
+    <article>
       <div class="container">
         <div class="row">
           <div class="col col-custom"><h2>Co jsme zač</h2></div>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-12 col-custom">
-            <img src="images/budova.png" alt="" />
+            <img src="images/budova.png" alt="budova" />
           </div>
           <div class="col-lg-8 col-md-12 col-custom">
             <p style="padding-left: 19px">
@@ -175,24 +179,27 @@
             </p>
             <p style="padding-top: 10px">
               Není proto náhoda, že jsme se
-              <span class="dotted">4 roky po sobě</span>
+              <span class="dotted"
+                >4 roky po sobě
+                <span class="popup">hustý, co?</span>
+              </span>
               umístili na třech nejvyšších příčkách v soutěži Best Employers ČR.
             </p>
           </div>
         </div>
       </div>
-    </div>
+    </article>
 
     <div class="visitors hide"></div>
 
-    <div class="offer">
+    <section class="offer">
       <div class="container">
         <div class="row">
           <div class="col-lg col-md-12 col-custom">
             <div class="content">
               <h2>Chceš být naším parťákem?</h2>
               <p>Měl(a) bys:</p>
-              <ul class="">
+              <ul>
                 <li>
                   <p>
                     Žít HTML5, CSS3. Doslova.Tento jazyk Ti občas připadá
@@ -233,7 +240,7 @@
             <div class="content">
               <h2>Co za to dostaneš?</h2>
               <p>Budeme si tě hýčkat např.:</p>
-              <ol class="">
+              <ol>
                 <li>
                   <p>
                     Komfortním pracovním prostředím, které je unikátní kombinací
@@ -276,12 +283,12 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="cards">
+    <section class="cards">
       <div class="container">
         <div class="row">
-          <div class="col flex-fixed-width-item col-custom">
+          <div class="col col-custom">
             <div class="content">
               <h2>Sdílení vědomostí</h2>
               <p>
@@ -289,11 +296,11 @@
                 poznat. Organizujeme pravidelné TechLunche, kdy nad lahodnou
                 pizzou sdílíme naše nové poznat ky a vědomosti.
               </p>
-              <p class="date">date</p>
-              <p class="hashtag">hashtag</p>
+              <p class="date">11. LEDNA</p>
+              <p class="hashtag">#etnplesk</p>
             </div>
           </div>
-          <div class="col flex-fixed-width-item col-custom active">
+          <div class="col col-custom active">
             <div class="content">
               <h2>O lidi se staráme někdy víc než o klienty</h2>
               <p>
@@ -301,11 +308,11 @@
                 kanceláří, tělocvičny, odpočinkových prostor a kavárny. U nás se
                 strohé prostředí a naže hlené límečky fakt nenosí.
               </p>
-              <p style="text-align: left; display: inline">date</p>
-              <p style="text-align: center; display: inline">hashtag</p>
+              <p class="date">12. LEDNA</p>
+              <p class="hashtag">#etnplesk</p>
             </div>
           </div>
-          <div class="col flex-fixed-width-item col-custom">
+          <div class="col col-custom">
             <div class="content">
               <h2>Jaké u nás dostaneš benefity?</h2>
               <p>
@@ -313,19 +320,19 @@
                 třeba stravenková platební karta, Multisport karta, příspěvky na
                 vzdělání, dopravu a penzijní pojištění.
               </p>
-              <p>date</p>
-              <p>hashtag</p>
+              <p class="date">12. LEDNA</p>
+              <p class="hashtag">#etnplesk</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div class="footer">
+    <footer>
       <h3>copyright</h3>
       <h4>© 2019 etnetera</h4>
       <p>Jsme hrdým členem <span>Etnetera Group</span></p>
-    </div>
+    </footer>
 
     <script src="script.js"></script>
     <script
